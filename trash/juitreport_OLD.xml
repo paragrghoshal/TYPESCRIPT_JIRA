@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<testsuite failures="1" skipped="0" name="cucumber-js" time="37.771095892999995" tests="2">
+  <testcase classname="User Authentication tests" name="Login should be success" time="31.778179397">
+    <failure type="TimeoutError" message="locator.fill: Timeout 30000ms exceeded.&#xA;=========================== logs ===========================&#xA;waiting for locator('#twotabsearchtextbox')&#xA;============================================================"><![CDATA[locator.fill: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator('#twotabsearchtextbox')
+============================================================
+    at AmazonLandingPage.<anonymous> (C:\ParagCODEdata\my_code\PLAYWRIGHT\PLAYWRIGHT_CUCUMBER\src\pageObjects\pages\AmazonLandingPage.ts:89:54)
+    at step (C:\ParagCODEdata\my_code\PLAYWRIGHT\PLAYWRIGHT_CUCUMBER\src\pageObjects\pages\AmazonLandingPage.ts:48:23)
+    at Object.next (C:\ParagCODEdata\my_code\PLAYWRIGHT\PLAYWRIGHT_CUCUMBER\src\pageObjects\pages\AmazonLandingPage.ts:29:53)
+    at fulfilled (C:\ParagCODEdata\my_code\PLAYWRIGHT\PLAYWRIGHT_CUCUMBER\src\pageObjects\pages\AmazonLandingPage.ts:20:58)]]></failure>
+    <system-out><![CDATA[Given User navigates to the application...................................passed
+And User entered the product 'laptop'.....................................failed
+When User click search button............................................skipped
+Then 'laptop' is displayed on product page...............................skipped]]></system-out>
+  </testcase>
+  <testcase classname="User Authentication tests" name="Login should be success [1]" time="5.992916495999999">
+    <system-out><![CDATA[Given User navigates to the application...................................passed
+And User entered the product 'smart watch'................................passed
+When User click search button.............................................passed
+Then 'smart watch' is displayed on product page...........................passed]]></system-out>
+  </testcase>
+</testsuite>

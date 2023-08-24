@@ -1,0 +1,12 @@
+{
+    "fields": {
+        "project": {
+            "id": "10006"
+        },
+        "summary": "This is parag",
+        "description": "This is ghoshal",
+        "issuetype": {
+            "id": "10014"
+        }
+    }
+}

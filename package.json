@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "@types/node": "^20.5.0",
+    "axios": "^1.4.0",
+    "btoa": "^1.2.1",
+    "date-format": "^4.0.14",
+    "dotenv": "^16.3.1",
+    "form-data": "^4.0.0",
+    "fs": "^0.0.1-security",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6",
+    "zip-a-folder": "^2.0.0"
+  },
+  "scripts": {
+    "execute": "tsc.cmd CreateProject.ts && node CreateProject.js"
+  }
+}

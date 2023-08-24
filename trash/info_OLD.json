@@ -1,0 +1,12 @@
+{
+    "fields": {
+        "project": {
+            "id": "10006"
+        },
+        "summary": "Brand new Test execution",
+        "description": "This contains test automation results",
+        "issuetype": {
+            "id": "10014"
+        }
+    }
+}
